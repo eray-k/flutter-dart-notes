@@ -1,7 +1,7 @@
 # flutter-dart-notes
  Flutter/Dart öğrenirken alacağım tüm notlar için bir repo
- ##freeCodeCamp video(37 saat)
- ####Future
+ ## freeCodeCamp video(37 saat)
+ #### Future
   ```dart
 Future<int> multipliesByTwo(int a){
 	return Future.delayed(const Duration(seconds: 3), () {
@@ -14,7 +14,7 @@ void test async {
 	print(result);
 }
 ```
-####Stream
+#### Stream
 A pipe of `Future`
  ```dart
 Stream<string> getName{
@@ -30,11 +30,11 @@ void test async{
 	print("Stream finished working.") //Never prints
 }
 ```
-###Other
+### Other
  - pubspec.yaml: It holds critical data about application.
  - >flutter pub add dependency_name
 
-##Docs
+## Docs
 
  -Widgets
 
